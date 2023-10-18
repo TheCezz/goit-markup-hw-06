@@ -525,6 +525,9 @@ body {
 }
 .close-btn:hover {
   color: var(--contrast-color);
+  transition-property: color;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 
 .what-we-do-overlay {
@@ -656,10 +659,16 @@ body {
 
 .form-item .text-input:hover {
   border: 1px solid var(--brand-color);
+  transition-property: border;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
   cursor: pointer;
 }
 .form-item .textarea:hover {
   border: 1px solid var(--brand-color);
+  transition-property: border;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
   cursor: pointer;
 }
 
@@ -718,6 +727,9 @@ body {
 
 .form-item:hover svg {
   fill: var(--brand-color);
+  transition-property: color;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 
 .form-item:focus-within svg {
@@ -726,6 +738,9 @@ body {
 
 .form-section .textarea:focus {
   outline: 1px solid var(--brand-color);
+  transition-property: outline;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 .terms-and-conditions span {
   font-family: Roboto;
@@ -768,6 +783,9 @@ body {
 }
 .form-section button:hover {
   box-shadow: 0px 4px 4px 0px #00000026;
+  transition-property: box-shadow;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 
 /* FOOTER SUBSCRIBE SECTION */
@@ -812,10 +830,16 @@ body {
 .subscribe-section .text-input:hover {
   border: 1px solid var(--brand-color);
   fill: var(--brand-color);
+  transition-property: boder, fill;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 .subscribe-section .text-input:focus {
   outline: 1px solid var(--brand-color);
   fill: var(--brand-color);
+  transition-property: outline, fill;
+  transition-duration: var(--default-duration);
+  transition-timing-function: var(--default-transition);
 }
 
 .footer-button {
