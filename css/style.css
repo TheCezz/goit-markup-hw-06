@@ -750,6 +750,7 @@ body {
   letter-spacing: 0.03em;
   text-align: left;
   margin-bottom: 4px;
+  user-select: none;
 }
 .form-section span a {
   text-decoration: underline;
